@@ -1,0 +1,61 @@
+/*---- BASIC SETUPS ----*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*---- NAV ----*/
+
+.clk-nav {
+    background-color: blue;
+    height: 100px;
+}
+
+/*---- CLOCKS ----*/
+
+.clk-faces {
+    height: 660px;
+    background-color: green;
+}
+
+/*---- ANALOG CLOCK ----*/
+
+.analog-clk {
+    position: relative;
+    width: 50%;
+    height: 660px;
+    background-color: aqua;
+}
+
+.clk-body {
+    position: absolute;
+    background-image: linear-gradient(#ffffffdc,#ffffffdc), url(./img/png-earth-logo-vector-png.png);
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: 10px solid gray;
+    right: 50px;
+    bottom: 100px;
+}
+
+/*---- DOTS ----*/
+
+.dots {
+    position: absolute;
+    padding: 8px;
+    background-color: #7a7a7a;
+    border-radius: 50%;
+}
+
+.big {
+    padding: 13px;
+}
+
+.big-dot1 {
+    right: 22px;
+}
